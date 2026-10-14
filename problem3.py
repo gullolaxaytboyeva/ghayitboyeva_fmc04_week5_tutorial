@@ -1,4 +1,5 @@
 queue = ["Aziza", "Bekzod"]
 queue.append("Malika")
-visitor = queue.pop()
-print(f"")
+entered = queue.pop(0)
+print(f"Entered: {entered}")
+print(f"Remaining queue: {queue}")
